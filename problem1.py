@@ -21,3 +21,8 @@ Enter your income: 125000
 Your federal income tax is: 24411.7
 
 '''
+import math
+
+i = 125000
+t = (i/26 * 100)
+print (t)
