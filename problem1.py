@@ -23,6 +23,6 @@ Your federal income tax is: 24411.7
 '''
 import math
 
-i = 125000
-t = (i/26 * 100)
-print (t)
+15% of 49020
+20.5% of 98040
+26% of 125000

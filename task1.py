@@ -18,3 +18,7 @@ Enter actual : 14
 The percent difference is 16.67%
 ```
 '''
+import math
+
+e = input ("What is the expected?")
+a = input ("What is the actual?")
