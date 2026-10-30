@@ -20,5 +20,7 @@ The percent difference is 16.67%
 '''
 import math
 
-e = input ("What is the expected?")
-a = input ("What is the actual?")
+a = input ("What is the expected?")
+b = input ("What is the actual?")
+c = ((a-b)/(a+b)/(2))*(100)
+print ("The percent difference is" (c))

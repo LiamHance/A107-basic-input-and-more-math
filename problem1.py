@@ -23,6 +23,5 @@ Your federal income tax is: 24411.7
 '''
 import math
 
-15% of 49020
-20.5% of 98040
-26% of 125000
+i = input ("What is your income?")
+if 49020 < i < 98040:
