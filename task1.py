@@ -22,5 +22,5 @@ import math
 
 a = input ("What is the expected?")
 b = input ("What is the actual?")
-c = ((a-b)/(a+b)/(2))*(100)
-print ("The percent difference is" (c))
+c = ((a-b)/(a+b)/(2))*(100) 
+print ("The percent difference is" (c)) 
