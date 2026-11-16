@@ -24,3 +24,13 @@ Your final amount is $39152.94
 You earned $14152.94 interest
 ```
 '''
+import math
+
+p = int(input("What is the Principal?"))
+r = int(input("What is the annual interest rate?"))
+n = int(input("What is the number of compounding periods per year?"))
+t = int(input("What is the length of time for an investment?"))
+a = (p*(1+r/n)**n*t)
+o=0
+print (f"Your final amount is ${o}")
+print (f"You earned ${a} interest")

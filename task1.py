@@ -5,8 +5,8 @@ Ask the user to input the following:
 * the actual result
 Calculate the percent difference between the two results. Round your answer to 2 decimal places
 
-```
-https://www.skillsyouneed.com/num/percent-change.html
+    ```
+    https://www.skillsyouneed.com/num/percent-change.html
 
 Sample Output:
 Enter expected: 10
@@ -20,7 +20,8 @@ The percent difference is 16.67%
 '''
 import math
 
-a = input ("What is the expected?")
-b = input ("What is the actual?")
-c = ((a-b)/(a+b)/(2))*(100) 
-print ("The percent difference is" (c)) 
+a = int(input ("What is the actual?"))
+b = int(input ("What is the expected?"))
+c = (a - b) 
+d = ((c / b) *100) 
+print (f"The percent difference is {d}%") 
