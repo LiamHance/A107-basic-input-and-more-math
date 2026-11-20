@@ -30,8 +30,7 @@ p = int(input("What is the Principal?"))
 r = float(input("What is the annual interest rate?"))
 n = int(input("What is the number of compounding periods per year?"))
 t = int(input("What is the length of time for an investment?"))
-a = (p*(1+r/n)**n*t)
-i = (n* ((a/p)**(1/n*t)-1)*100)          
-
+a = p/(1+r/n)**(n*t)
+i = n* ((a/p)**(1/(n*t))-1)*100
 print (f"Your final amount is ${a}")
 print (f"You earned ${i} interest")
