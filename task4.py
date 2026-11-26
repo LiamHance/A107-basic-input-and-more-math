@@ -17,8 +17,8 @@ Enter a length in centimeters: 32
 """
 import math
 
-a=float(input("Enter a length in centimeters:"))
-b=a/2.54
-c=b/12
-d=c-60  
-print (f"{a}Centimeters is {b} feet and {c} inches")
+a=float(input("Enter a length in centimeters:"))    
+b=round(a/2.54)
+c=round(b//12)
+d=(b%12)
+print (f"{a}Centimeters is {c} feet and {d} inches")
